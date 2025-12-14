@@ -508,9 +508,9 @@ const D3Visualization = dynamic(() => import('@/components/D3Visualization'), {
 
 ---
 
-## 5. 시각화 결과 및 효과
+## 5.1 시각화 결과 및 효과
 
-### 5.1 사용자 경험 개선
+### 5.1.1 사용자 경험 개선
 
 #### 효과
 - **직관적 정보 파악**: 색상 코딩을 통한 즉각적인 상태 인식
@@ -519,7 +519,7 @@ const D3Visualization = dynamic(() => import('@/components/D3Visualization'), {
 
 ---
 
-### 5.2 관리자 의사결정 지원
+### 5.1.2 관리자 의사결정 지원
 
 #### 효과
 - **전체 현황 파악**: 통계 차트를 통한 한눈에 보는 시스템 상태
@@ -528,7 +528,7 @@ const D3Visualization = dynamic(() => import('@/components/D3Visualization'), {
 
 ---
 
-### 5.3 데이터 접근성 향상
+### 5.1.3 데이터 접근성 향상
 
 #### 효과
 - **다양한 표현 방식**: 지도, 막대 그래프, 라인 차트, 도넛 차트 등
@@ -537,9 +537,9 @@ const D3Visualization = dynamic(() => import('@/components/D3Visualization'), {
 
 ---
 
-## 6. 기술적 특징
+## 5.2 기술적 특징
 
-### 6.1 라이브러리 선택 이유
+### 5.2.1 라이브러리 선택 이유
 
 #### D3.js
 - **장점**: 높은 커스터마이징 가능, 세밀한 제어
@@ -558,7 +558,7 @@ const D3Visualization = dynamic(() => import('@/components/D3Visualization'), {
 
 ---
 
-### 6.2 데이터 처리
+### 5.2.2 데이터 처리
 
 #### 서버 사이드
 - **SQL 집계**: COUNT, GROUP BY를 통한 효율적인 데이터 집계
@@ -572,9 +572,9 @@ const D3Visualization = dynamic(() => import('@/components/D3Visualization'), {
 
 ---
 
-## 7. 구현 통계
+## 5.3 구현 통계
 
-### 7.1 구현된 시각화 유형
+### 5.3.1 구현된 시각화 유형
 
 | 유형 | 라이브러리 | 개수 | 위치 |
 |------|-----------|------|------|
@@ -589,7 +589,7 @@ const D3Visualization = dynamic(() => import('@/components/D3Visualization'), {
 
 ---
 
-### 7.2 데이터 시각화 페이지
+### 5.3.2 데이터 시각화 페이지
 
 1. **메인 페이지** (`/`): 지도 + 부하율 분포 막대 그래프
 2. **대여소 상세 페이지** (`/station/[id]`): 시간대별 기준 수요 라인 차트
